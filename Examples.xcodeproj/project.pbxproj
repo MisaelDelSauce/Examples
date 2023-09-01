@@ -9,21 +9,87 @@
 /* Begin PBXBuildFile section */
 		13A93F6C2AA17BE100677877 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A93F6B2AA17BE100677877 /* AppDelegate.swift */; };
 		13A93F6E2AA17BE100677877 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A93F6D2AA17BE100677877 /* SceneDelegate.swift */; };
-		13A93F702AA17BE100677877 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A93F6F2AA17BE100677877 /* ViewController.swift */; };
-		13A93F732AA17BE100677877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A93F712AA17BE100677877 /* Main.storyboard */; };
 		13A93F752AA17BE100677877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A93F742AA17BE100677877 /* Assets.xcassets */; };
-		13A93F782AA17BE200677877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A93F762AA17BE200677877 /* LaunchScreen.storyboard */; };
+		13B0F40B2AA1A30E00BD15E0 /* ExampleOnePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4062AA1A30E00BD15E0 /* ExampleOnePresenter.swift */; };
+		13B0F40C2AA1A30E00BD15E0 /* ExampleOneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4072AA1A30E00BD15E0 /* ExampleOneRouter.swift */; };
+		13B0F40D2AA1A30E00BD15E0 /* ExampleOneProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4082AA1A30E00BD15E0 /* ExampleOneProtocols.swift */; };
+		13B0F40E2AA1A30E00BD15E0 /* ExampleOneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4092AA1A30E00BD15E0 /* ExampleOneInteractor.swift */; };
+		13B0F40F2AA1A30E00BD15E0 /* ExampleOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F40A2AA1A30E00BD15E0 /* ExampleOneView.swift */; };
+		13B0F4122AA1A34200BD15E0 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4112AA1A34200BD15E0 /* Endpoint.swift */; };
+		13B0F4192AA1A45000BD15E0 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4142AA1A45000BD15E0 /* MainPresenter.swift */; };
+		13B0F41A2AA1A45000BD15E0 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4152AA1A45000BD15E0 /* MainRouter.swift */; };
+		13B0F41B2AA1A45000BD15E0 /* MainProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4162AA1A45000BD15E0 /* MainProtocols.swift */; };
+		13B0F41C2AA1A45000BD15E0 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4172AA1A45000BD15E0 /* MainInteractor.swift */; };
+		13B0F41D2AA1A45000BD15E0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4182AA1A45000BD15E0 /* MainView.swift */; };
+		13B0F4202AA1AC2F00BD15E0 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F41F2AA1AC2F00BD15E0 /* API.swift */; };
+		13B0F4272AA262E200BD15E0 /* ExampleTwoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4222AA262E200BD15E0 /* ExampleTwoPresenter.swift */; };
+		13B0F4282AA262E200BD15E0 /* ExampleTwoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4232AA262E200BD15E0 /* ExampleTwoRouter.swift */; };
+		13B0F4292AA262E200BD15E0 /* ExampleTwoProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4242AA262E200BD15E0 /* ExampleTwoProtocols.swift */; };
+		13B0F42A2AA262E200BD15E0 /* ExampleTwoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4252AA262E200BD15E0 /* ExampleTwoInteractor.swift */; };
+		13B0F42B2AA262E200BD15E0 /* ExampleTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4262AA262E200BD15E0 /* ExampleTwoView.swift */; };
+		13B0F42D2AA263BB00BD15E0 /* ExampleTwoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F42C2AA263BB00BD15E0 /* ExampleTwoEntity.swift */; };
+		13B0F42F2AA2777D00BD15E0 /* ProductViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F42E2AA2777D00BD15E0 /* ProductViewCell.swift */; };
+		13B0F4332AA27EB700BD15E0 /* Products.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4312AA27EB700BD15E0 /* Products.xcdatamodeld */; };
+		13B0F4462AA281B300BD15E0 /* ExampleThreePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4412AA281B300BD15E0 /* ExampleThreePresenter.swift */; };
+		13B0F4472AA281B300BD15E0 /* ExampleThreeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4422AA281B300BD15E0 /* ExampleThreeRouter.swift */; };
+		13B0F4482AA281B300BD15E0 /* ExampleThreeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4432AA281B300BD15E0 /* ExampleThreeProtocols.swift */; };
+		13B0F4492AA281B300BD15E0 /* ExampleThreeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4442AA281B300BD15E0 /* ExampleThreeInteractor.swift */; };
+		13B0F44A2AA281B300BD15E0 /* ExampleThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4452AA281B300BD15E0 /* ExampleThreeView.swift */; };
+		13B0F4512AA2893E00BD15E0 /* ExampleFourPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F44C2AA2893E00BD15E0 /* ExampleFourPresenter.swift */; };
+		13B0F4522AA2893E00BD15E0 /* ExampleFourRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F44D2AA2893E00BD15E0 /* ExampleFourRouter.swift */; };
+		13B0F4532AA2893E00BD15E0 /* ExampleFourProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F44E2AA2893E00BD15E0 /* ExampleFourProtocols.swift */; };
+		13B0F4542AA2893E00BD15E0 /* ExampleFourInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F44F2AA2893E00BD15E0 /* ExampleFourInteractor.swift */; };
+		13B0F4552AA2893E00BD15E0 /* ExampleFourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4502AA2893E00BD15E0 /* ExampleFourView.swift */; };
+		13B0F4582AA28E1A00BD15E0 /* ExampleFourEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F4572AA28E1A00BD15E0 /* ExampleFourEntity.swift */; };
+		13B0F45F2AA2962B00BD15E0 /* LifecyclePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F45A2AA2962B00BD15E0 /* LifecyclePresenter.swift */; };
+		13B0F4602AA2962B00BD15E0 /* LifecycleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F45B2AA2962B00BD15E0 /* LifecycleRouter.swift */; };
+		13B0F4612AA2962B00BD15E0 /* LifecycleProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F45C2AA2962B00BD15E0 /* LifecycleProtocols.swift */; };
+		13B0F4622AA2962B00BD15E0 /* LifecycleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F45D2AA2962B00BD15E0 /* LifecycleInteractor.swift */; };
+		13B0F4632AA2962B00BD15E0 /* LifecycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0F45E2AA2962B00BD15E0 /* LifecycleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		13A93F682AA17BE100677877 /* Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A93F6B2AA17BE100677877 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13A93F6D2AA17BE100677877 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		13A93F6F2AA17BE100677877 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		13A93F722AA17BE100677877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13A93F742AA17BE100677877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		13A93F772AA17BE200677877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13A93F792AA17BE200677877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B0F4062AA1A30E00BD15E0 /* ExampleOnePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleOnePresenter.swift; sourceTree = "<group>"; };
+		13B0F4072AA1A30E00BD15E0 /* ExampleOneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleOneRouter.swift; sourceTree = "<group>"; };
+		13B0F4082AA1A30E00BD15E0 /* ExampleOneProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleOneProtocols.swift; sourceTree = "<group>"; };
+		13B0F4092AA1A30E00BD15E0 /* ExampleOneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleOneInteractor.swift; sourceTree = "<group>"; };
+		13B0F40A2AA1A30E00BD15E0 /* ExampleOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleOneView.swift; sourceTree = "<group>"; };
+		13B0F4112AA1A34200BD15E0 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		13B0F4142AA1A45000BD15E0 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		13B0F4152AA1A45000BD15E0 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		13B0F4162AA1A45000BD15E0 /* MainProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainProtocols.swift; sourceTree = "<group>"; };
+		13B0F4172AA1A45000BD15E0 /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		13B0F4182AA1A45000BD15E0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		13B0F41F2AA1AC2F00BD15E0 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		13B0F4222AA262E200BD15E0 /* ExampleTwoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTwoPresenter.swift; sourceTree = "<group>"; };
+		13B0F4232AA262E200BD15E0 /* ExampleTwoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTwoRouter.swift; sourceTree = "<group>"; };
+		13B0F4242AA262E200BD15E0 /* ExampleTwoProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTwoProtocols.swift; sourceTree = "<group>"; };
+		13B0F4252AA262E200BD15E0 /* ExampleTwoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTwoInteractor.swift; sourceTree = "<group>"; };
+		13B0F4262AA262E200BD15E0 /* ExampleTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTwoView.swift; sourceTree = "<group>"; };
+		13B0F42C2AA263BB00BD15E0 /* ExampleTwoEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTwoEntity.swift; sourceTree = "<group>"; };
+		13B0F42E2AA2777D00BD15E0 /* ProductViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewCell.swift; sourceTree = "<group>"; };
+		13B0F4322AA27EB700BD15E0 /* Products.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Products.xcdatamodel; sourceTree = "<group>"; };
+		13B0F4412AA281B300BD15E0 /* ExampleThreePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleThreePresenter.swift; sourceTree = "<group>"; };
+		13B0F4422AA281B300BD15E0 /* ExampleThreeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleThreeRouter.swift; sourceTree = "<group>"; };
+		13B0F4432AA281B300BD15E0 /* ExampleThreeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleThreeProtocols.swift; sourceTree = "<group>"; };
+		13B0F4442AA281B300BD15E0 /* ExampleThreeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleThreeInteractor.swift; sourceTree = "<group>"; };
+		13B0F4452AA281B300BD15E0 /* ExampleThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleThreeView.swift; sourceTree = "<group>"; };
+		13B0F44C2AA2893E00BD15E0 /* ExampleFourPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFourPresenter.swift; sourceTree = "<group>"; };
+		13B0F44D2AA2893E00BD15E0 /* ExampleFourRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFourRouter.swift; sourceTree = "<group>"; };
+		13B0F44E2AA2893E00BD15E0 /* ExampleFourProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFourProtocols.swift; sourceTree = "<group>"; };
+		13B0F44F2AA2893E00BD15E0 /* ExampleFourInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFourInteractor.swift; sourceTree = "<group>"; };
+		13B0F4502AA2893E00BD15E0 /* ExampleFourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFourView.swift; sourceTree = "<group>"; };
+		13B0F4572AA28E1A00BD15E0 /* ExampleFourEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFourEntity.swift; sourceTree = "<group>"; };
+		13B0F45A2AA2962B00BD15E0 /* LifecyclePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecyclePresenter.swift; sourceTree = "<group>"; };
+		13B0F45B2AA2962B00BD15E0 /* LifecycleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleRouter.swift; sourceTree = "<group>"; };
+		13B0F45C2AA2962B00BD15E0 /* LifecycleProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleProtocols.swift; sourceTree = "<group>"; };
+		13B0F45D2AA2962B00BD15E0 /* LifecycleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleInteractor.swift; sourceTree = "<group>"; };
+		13B0F45E2AA2962B00BD15E0 /* LifecycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +103,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		134E99B52AA1928400634EB5 /* ExampleOne */ = {
+			isa = PBXGroup;
+			children = (
+				13B0F4062AA1A30E00BD15E0 /* ExampleOnePresenter.swift */,
+				13B0F4072AA1A30E00BD15E0 /* ExampleOneRouter.swift */,
+				13B0F4082AA1A30E00BD15E0 /* ExampleOneProtocols.swift */,
+				13B0F4092AA1A30E00BD15E0 /* ExampleOneInteractor.swift */,
+				13B0F40A2AA1A30E00BD15E0 /* ExampleOneView.swift */,
+			);
+			path = ExampleOne;
+			sourceTree = "<group>";
+		};
 		13A93F5F2AA17BE100677877 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +134,108 @@
 		13A93F6A2AA17BE100677877 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				13B0F4592AA295FD00BD15E0 /* Lifecycle */,
+				13B0F44B2AA2892900BD15E0 /* ExampleFour */,
+				13B0F4362AA2808B00BD15E0 /* ExampleThree */,
+				13B0F4302AA27E7C00BD15E0 /* CoreData */,
+				13B0F4212AA262CC00BD15E0 /* ExampleTwo */,
+				13B0F41E2AA1AC2000BD15E0 /* Network */,
+				13B0F4132AA1A43700BD15E0 /* MainView */,
+				13B0F4102AA1A32E00BD15E0 /* EndPoints */,
+				134E99B52AA1928400634EB5 /* ExampleOne */,
 				13A93F6B2AA17BE100677877 /* AppDelegate.swift */,
 				13A93F6D2AA17BE100677877 /* SceneDelegate.swift */,
-				13A93F6F2AA17BE100677877 /* ViewController.swift */,
-				13A93F712AA17BE100677877 /* Main.storyboard */,
 				13A93F742AA17BE100677877 /* Assets.xcassets */,
-				13A93F762AA17BE200677877 /* LaunchScreen.storyboard */,
 				13A93F792AA17BE200677877 /* Info.plist */,
 			);
 			path = Examples;
+			sourceTree = "<group>";
+		};
+		13B0F4102AA1A32E00BD15E0 /* EndPoints */ = {
+			isa = PBXGroup;
+			children = (
+				13B0F4112AA1A34200BD15E0 /* Endpoint.swift */,
+			);
+			path = EndPoints;
+			sourceTree = "<group>";
+		};
+		13B0F4132AA1A43700BD15E0 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				13B0F4142AA1A45000BD15E0 /* MainPresenter.swift */,
+				13B0F4152AA1A45000BD15E0 /* MainRouter.swift */,
+				13B0F4162AA1A45000BD15E0 /* MainProtocols.swift */,
+				13B0F4172AA1A45000BD15E0 /* MainInteractor.swift */,
+				13B0F4182AA1A45000BD15E0 /* MainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		13B0F41E2AA1AC2000BD15E0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				13B0F41F2AA1AC2F00BD15E0 /* API.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		13B0F4212AA262CC00BD15E0 /* ExampleTwo */ = {
+			isa = PBXGroup;
+			children = (
+				13B0F4242AA262E200BD15E0 /* ExampleTwoProtocols.swift */,
+				13B0F4222AA262E200BD15E0 /* ExampleTwoPresenter.swift */,
+				13B0F4232AA262E200BD15E0 /* ExampleTwoRouter.swift */,
+				13B0F4252AA262E200BD15E0 /* ExampleTwoInteractor.swift */,
+				13B0F4262AA262E200BD15E0 /* ExampleTwoView.swift */,
+				13B0F42C2AA263BB00BD15E0 /* ExampleTwoEntity.swift */,
+				13B0F42E2AA2777D00BD15E0 /* ProductViewCell.swift */,
+			);
+			path = ExampleTwo;
+			sourceTree = "<group>";
+		};
+		13B0F4302AA27E7C00BD15E0 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				13B0F4312AA27EB700BD15E0 /* Products.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		13B0F4362AA2808B00BD15E0 /* ExampleThree */ = {
+			isa = PBXGroup;
+			children = (
+				13B0F4412AA281B300BD15E0 /* ExampleThreePresenter.swift */,
+				13B0F4422AA281B300BD15E0 /* ExampleThreeRouter.swift */,
+				13B0F4432AA281B300BD15E0 /* ExampleThreeProtocols.swift */,
+				13B0F4442AA281B300BD15E0 /* ExampleThreeInteractor.swift */,
+				13B0F4452AA281B300BD15E0 /* ExampleThreeView.swift */,
+			);
+			path = ExampleThree;
+			sourceTree = "<group>";
+		};
+		13B0F44B2AA2892900BD15E0 /* ExampleFour */ = {
+			isa = PBXGroup;
+			children = (
+				13B0F44C2AA2893E00BD15E0 /* ExampleFourPresenter.swift */,
+				13B0F44D2AA2893E00BD15E0 /* ExampleFourRouter.swift */,
+				13B0F44E2AA2893E00BD15E0 /* ExampleFourProtocols.swift */,
+				13B0F44F2AA2893E00BD15E0 /* ExampleFourInteractor.swift */,
+				13B0F4502AA2893E00BD15E0 /* ExampleFourView.swift */,
+				13B0F4572AA28E1A00BD15E0 /* ExampleFourEntity.swift */,
+			);
+			path = ExampleFour;
+			sourceTree = "<group>";
+		};
+		13B0F4592AA295FD00BD15E0 /* Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				13B0F45A2AA2962B00BD15E0 /* LifecyclePresenter.swift */,
+				13B0F45B2AA2962B00BD15E0 /* LifecycleRouter.swift */,
+				13B0F45C2AA2962B00BD15E0 /* LifecycleProtocols.swift */,
+				13B0F45D2AA2962B00BD15E0 /* LifecycleInteractor.swift */,
+				13B0F45E2AA2962B00BD15E0 /* LifecycleView.swift */,
+			);
+			path = Lifecycle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13A93F782AA17BE200677877 /* LaunchScreen.storyboard in Resources */,
 				13A93F752AA17BE100677877 /* Assets.xcassets in Resources */,
-				13A93F732AA17BE100677877 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +307,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13A93F702AA17BE100677877 /* ViewController.swift in Sources */,
+				13B0F4272AA262E200BD15E0 /* ExampleTwoPresenter.swift in Sources */,
+				13B0F40F2AA1A30E00BD15E0 /* ExampleOneView.swift in Sources */,
+				13B0F4462AA281B300BD15E0 /* ExampleThreePresenter.swift in Sources */,
+				13B0F41D2AA1A45000BD15E0 /* MainView.swift in Sources */,
+				13B0F4122AA1A34200BD15E0 /* Endpoint.swift in Sources */,
+				13B0F40E2AA1A30E00BD15E0 /* ExampleOneInteractor.swift in Sources */,
+				13B0F4532AA2893E00BD15E0 /* ExampleFourProtocols.swift in Sources */,
+				13B0F4512AA2893E00BD15E0 /* ExampleFourPresenter.swift in Sources */,
+				13B0F4522AA2893E00BD15E0 /* ExampleFourRouter.swift in Sources */,
+				13B0F4632AA2962B00BD15E0 /* LifecycleView.swift in Sources */,
+				13B0F4602AA2962B00BD15E0 /* LifecycleRouter.swift in Sources */,
+				13B0F4472AA281B300BD15E0 /* ExampleThreeRouter.swift in Sources */,
+				13B0F40C2AA1A30E00BD15E0 /* ExampleOneRouter.swift in Sources */,
+				13B0F4192AA1A45000BD15E0 /* MainPresenter.swift in Sources */,
+				13B0F4202AA1AC2F00BD15E0 /* API.swift in Sources */,
+				13B0F4482AA281B300BD15E0 /* ExampleThreeProtocols.swift in Sources */,
+				13B0F42D2AA263BB00BD15E0 /* ExampleTwoEntity.swift in Sources */,
+				13B0F4282AA262E200BD15E0 /* ExampleTwoRouter.swift in Sources */,
+				13B0F4582AA28E1A00BD15E0 /* ExampleFourEntity.swift in Sources */,
 				13A93F6C2AA17BE100677877 /* AppDelegate.swift in Sources */,
+				13B0F4612AA2962B00BD15E0 /* LifecycleProtocols.swift in Sources */,
+				13B0F4332AA27EB700BD15E0 /* Products.xcdatamodeld in Sources */,
+				13B0F40B2AA1A30E00BD15E0 /* ExampleOnePresenter.swift in Sources */,
+				13B0F4292AA262E200BD15E0 /* ExampleTwoProtocols.swift in Sources */,
+				13B0F41B2AA1A45000BD15E0 /* MainProtocols.swift in Sources */,
+				13B0F42F2AA2777D00BD15E0 /* ProductViewCell.swift in Sources */,
+				13B0F44A2AA281B300BD15E0 /* ExampleThreeView.swift in Sources */,
 				13A93F6E2AA17BE100677877 /* SceneDelegate.swift in Sources */,
+				13B0F45F2AA2962B00BD15E0 /* LifecyclePresenter.swift in Sources */,
+				13B0F4622AA2962B00BD15E0 /* LifecycleInteractor.swift in Sources */,
+				13B0F4542AA2893E00BD15E0 /* ExampleFourInteractor.swift in Sources */,
+				13B0F42B2AA262E200BD15E0 /* ExampleTwoView.swift in Sources */,
+				13B0F4552AA2893E00BD15E0 /* ExampleFourView.swift in Sources */,
+				13B0F41A2AA1A45000BD15E0 /* MainRouter.swift in Sources */,
+				13B0F40D2AA1A30E00BD15E0 /* ExampleOneProtocols.swift in Sources */,
+				13B0F42A2AA262E200BD15E0 /* ExampleTwoInteractor.swift in Sources */,
+				13B0F41C2AA1A45000BD15E0 /* MainInteractor.swift in Sources */,
+				13B0F4492AA281B300BD15E0 /* ExampleThreeInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		13A93F712AA17BE100677877 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13A93F722AA17BE100677877 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		13A93F762AA17BE200677877 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13A93F772AA17BE200677877 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		13A93F7A2AA17BE200677877 /* Debug */ = {
@@ -291,9 +476,8 @@
 				INFOPLIST_FILE = Examples/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,9 +502,8 @@
 				INFOPLIST_FILE = Examples/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,6 +539,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		13B0F4312AA27EB700BD15E0 /* Products.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				13B0F4322AA27EB700BD15E0 /* Products.xcdatamodel */,
+			);
+			currentVersion = 13B0F4322AA27EB700BD15E0 /* Products.xcdatamodel */;
+			path = Products.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 13A93F602AA17BE100677877 /* Project object */;
 }
